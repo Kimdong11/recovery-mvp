@@ -1,71 +1,965 @@
 [
    {
-      "id": "afternoon_crash_3_movement_1",
-      "situation": "afternoon_crash",
+      "id": "MEET_3M_001",
+      "title": "회의 전 호흡-목소리 리셋 3분",
+      "situation": "meeting_pre",
       "duration_min": 3,
-      "type": "movement",
-      "title": "오후 3분: 굳은 몸 깨우기",
-      "purpose": "가만히 쉬면 더 피곤한 상태를 짧게 리셋합니다.",
-      "forbidden": "의자에 기대어 멍때리기 금지",
-      "effort": "low",
-      "tags": ["스트레칭", "순환", "리셋"],
+      "type": "emotion",
       "environment": {
-         "walk_required": false,
-         "alone_required": false,
-         "privacy_required": false,
          "quiet_ok": true,
-         "noise_ok": true
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
       },
+      "effort": "low",
+      "purpose": "사용자는 호흡과 발성 준비로 말이 막히는 느낌을 줄입니다.",
       "steps": [
-         { "text": "목/어깨 가동 + 턱 이완", "seconds": 90 },
-         { "text": "종아리 펌핑(발뒤꿈치 들기)", "seconds": 60 },
-         { "text": "제자리 걷기", "seconds": 30 }
-      ]
+         { "text": "사용자는 4초 들숨-4초 멈춤-6초 날숨을 6회 반복합니다.", "seconds": 90 },
+         { "text": "사용자는 입술 트릴 또는 ‘음—’ 허밍을 30초간 가볍게 합니다.", "seconds": 30 },
+         { "text": "사용자는 첫 문장(핵심 결론 1줄)을 속으로 3번 말합니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 완벽한 말투를 만들려 애쓰지 않습니다.",
+      "tags": ["회의전", "발표전", "긴장완화", "호흡", "발성", "원탭가능"]
    },
    {
-      "id": "meeting_pre_3_cognitive_1",
+      "id": "MEET_3M_002",
+      "title": "회의 전 어깨-턱 긴장 해제 3분",
+      "situation": "meeting_pre",
+      "duration_min": 3,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 목·어깨·턱 긴장을 내려 말과 표정이 부드러워집니다.",
+      "steps": [
+         { "text": "사용자는 어깨를 귀 쪽으로 3초 올렸다가 5초 내려 5회 반복합니다.", "seconds": 60 },
+         { "text": "사용자는 턱을 살짝 벌리고 혀를 윗니 뒤에 두어 30초 유지합니다.", "seconds": 30 },
+         { "text": "사용자는 목 옆을 천천히 늘리며 좌우 30초씩 호흡합니다.", "seconds": 90 }
+      ],
+      "forbidden": "사용자는 통증이 생길 만큼 스트레칭하지 않습니다.",
+      "tags": ["회의전", "긴장완화", "목어깨", "턱긴장", "자세"]
+   },
+   {
+      "id": "MEET_3M_003",
+      "title": "회의 전 핵심 한 줄 정리 3분",
       "situation": "meeting_pre",
       "duration_min": 3,
       "type": "cognitive",
-      "title": "회의 전 3분: 핵심 1문장 고정",
-      "purpose": "회의에서 말할 결론 1문장을 고정합니다.",
-      "forbidden": "자료 탐색/탭 추가 열기 금지",
-      "effort": "low",
-      "tags": ["회의", "정리", "핵심"],
       "environment": {
-         "walk_required": false,
-         "alone_required": false,
-         "privacy_required": false,
          "quiet_ok": true,
-         "noise_ok": true
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
       },
+      "effort": "low",
+      "purpose": "사용자는 말할 내용을 ‘결론 1줄’로 고정해 흔들림을 줄입니다.",
       "steps": [
-         { "text": "오늘 결론 1문장 쓰기", "seconds": 60 },
-         { "text": "내가 제안할 1문장 고정하기", "seconds": 60 },
-         { "text": "질문 1개 미리 준비하기", "seconds": 60 }
-      ]
+         { "text": "사용자는 오늘 회의에서 얻고 싶은 결과를 한 문장으로 씁니다.", "seconds": 60 },
+         { "text": "사용자는 근거 2개만 불릿으로 적습니다.", "seconds": 60 },
+         { "text": "사용자는 상대가 물을 질문 1개를 예상하고 답을 한 줄로 씁니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 자료 전체를 다시 읽으려 하지 않습니다.",
+      "tags": ["회의전", "정리", "결론한줄", "QnA", "말문막힘"]
    },
    {
-      "id": "before_leave_3_planning_1",
+      "id": "MEET_3M_004",
+      "title": "회의 전 시선-자세 안정 3분",
+      "situation": "meeting_pre",
+      "duration_min": 3,
+      "type": "emotion",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 시선과 자세를 안정시켜 불필요한 불안 신호를 줄입니다.",
+      "steps": [
+         { "text": "사용자는 등받이에 등을 붙이고 골반을 세워 10초 호흡합니다.", "seconds": 40 },
+         { "text": "사용자는 화면/테이블의 한 지점을 20초 응시하며 호흡을 느낍니다.", "seconds": 80 },
+         { "text": "사용자는 회의 시작 후 할 ‘첫 행동(메모 열기/안건 확인)’을 마음속으로 정합니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 자세를 억지로 고정해 긴장을 더 만들지 않습니다.",
+      "tags": ["회의전", "불안완화", "시선", "자세", "준비"]
+   },
+   {
+      "id": "MEET_3M_005",
+      "title": "회의 전 ‘상대 관점’ 전환 3분",
+      "situation": "meeting_pre",
+      "duration_min": 3,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 상대가 원하는 것을 먼저 떠올려 대화가 쉬워집니다.",
+      "steps": [
+         { "text": "사용자는 상대가 원하는 결과를 1줄로 적습니다.", "seconds": 60 },
+         { "text": "사용자는 상대의 리스크(시간/예산/품질) 1개를 적습니다.", "seconds": 60 },
+         { "text": "사용자는 내가 줄 수 있는 ‘다음 행동 1개’를 1줄로 적습니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 상대를 설득하려는 말부터 시작하지 않습니다.",
+      "tags": ["회의전", "커뮤니케이션", "관점전환", "요청", "조율"]
+   },
+   {
+      "id": "MEET_10M_001",
+      "title": "회의 전 10분 프리브리프",
+      "situation": "meeting_pre",
+      "duration_min": 10,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 회의 흐름을 10분 안에 예열해 참여 피로를 줄입니다.",
+      "steps": [
+         { "text": "사용자는 안건을 3줄로 요약합니다(배경/문제/결정).", "seconds": 240 },
+         { "text": "사용자는 내 역할을 1줄로 정의합니다(결정/보고/조율).", "seconds": 180 },
+         { "text": "사용자는 회의 후 ‘내가 할 다음 행동 1개’를 메모/캘린더에 박아둡니다.", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 회의 자료 전체를 완독하려 하지 않습니다.",
+      "tags": ["회의전", "브리프", "요약", "역할정의", "다음행동"]
+   },
+   {
+      "id": "MEET_10M_002",
+      "title": "회의 전 긴장 완화 워킹 10분",
+      "situation": "meeting_pre",
+      "duration_min": 10,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": false,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": true,
+         "seat_ok": false,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 가벼운 움직임으로 긴장을 빼고 집중을 올립니다.",
+      "steps": [
+         { "text": "사용자는 천천히 3분 걷고 호흡을 느낍니다.", "seconds": 180 },
+         { "text": "사용자는 1분 동안 어깨 원 돌리기와 팔 흔들기를 합니다.", "seconds": 60 },
+         { "text": "사용자는 마지막 6분 동안 ‘결론 1줄’을 머릿속으로 반복하며 걷습니다.", "seconds": 360 }
+      ],
+      "forbidden": "사용자는 속도를 올려 땀나는 운동으로 만들지 않습니다.",
+      "tags": ["회의전", "걷기", "긴장완화", "집중", "루틴"]
+   },
+   {
+      "id": "MEET_10M_003",
+      "title": "회의 전 반박 대비 10분(질문 3개 시뮬레이션)",
+      "situation": "meeting_pre",
+      "duration_min": 10,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": true
+      },
+      "effort": "mid",
+      "purpose": "사용자는 예상 질문을 준비해 당황을 줄입니다.",
+      "steps": [
+         { "text": "사용자는 나올 질문 3개를 적습니다.", "seconds": 180 },
+         { "text": "사용자는 각 질문에 답을 ‘결론 1줄 + 근거 1줄’로 씁니다.", "seconds": 300 },
+         { "text": "사용자는 가장 어려운 질문 1개만 소리 내어 2회 말해봅니다.", "seconds": 120 }
+      ],
+      "forbidden": "사용자는 모든 경우의 수를 다 준비하려 하지 않습니다.",
+      "tags": ["회의전", "QnA", "반박대비", "말하기", "준비"]
+   },
+   {
+      "id": "MEET_10M_004",
+      "title": "회의 전 감각 차단 10분(알림 과부하 차단)",
+      "situation": "meeting_pre",
+      "duration_min": 10,
+      "type": "sensory",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 자극을 줄여 회의 집중을 위한 여백을 만듭니다.",
+      "steps": [
+         { "text": "사용자는 알림을 30분만 끄고, 화면 밝기를 낮춥니다.", "seconds": 60 },
+         { "text": "사용자는 4분간 무음/백색소음으로 앉아 호흡합니다(가능하면).", "seconds": 240 },
+         { "text": "사용자는 회의에서 필요한 화면/문서만 열어 정리합니다.", "seconds": 300 }
+      ],
+      "forbidden": "사용자는 SNS를 “잠깐” 보지 않습니다.",
+      "tags": ["회의전", "감각차단", "알림OFF", "집중", "정리"]
+   },
+   {
+      "id": "MEET_10M_005",
+      "title": "회의 전 관계 리셋 10분(표정·말투 준비)",
+      "situation": "meeting_pre",
+      "duration_min": 10,
+      "type": "emotion",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": true
+      },
+      "effort": "mid",
+      "purpose": "사용자는 관계 에너지를 정리해 회의 분위기를 부드럽게 합니다.",
+      "steps": [
+         { "text": "사용자는 상대에게 전할 메시지를 ‘요청 1줄’로 씁니다.", "seconds": 180 },
+         { "text": "사용자는 문장을 ‘사실-영향-요청’ 형태로 바꿉니다.", "seconds": 300 },
+         { "text": "사용자는 첫 문장을 부드럽게 바꾼 버전으로 3번 읽습니다.", "seconds": 120 }
+      ],
+      "forbidden": "사용자는 상대를 평가하는 문장으로 시작하지 않습니다.",
+      "tags": ["회의전", "관계", "커뮤니케이션", "요청", "톤조절"]
+   },
+
+   {
+      "id": "AFTER_3M_001",
+      "title": "오후 리셋 호흡 3분(카페인 대신)",
+      "situation": "afternoon_crash",
+      "duration_min": 3,
+      "type": "emotion",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 호흡으로 각성을 조금 올려 오후 무너짐을 줄입니다.",
+      "steps": [
+         { "text": "사용자는 코로 3초 들숨-입으로 6초 날숨을 10회 합니다.", "seconds": 90 },
+         { "text": "사용자는 시선을 멀리 두고 호흡을 느낍니다(눈을 감지 않음).", "seconds": 60 },
+         { "text": "사용자는 지금 할 ‘다음 행동 1개’를 한 줄로 씁니다.", "seconds": 30 }
+      ],
+      "forbidden": "사용자는 바로 커피부터 찾지 않습니다.",
+      "tags": ["오후붕괴", "호흡", "각성", "다음행동", "카페인대신"]
+   },
+   {
+      "id": "AFTER_3M_002",
+      "title": "오후 하체 펌핑 3분(앉아 있는 피로 해소)",
+      "situation": "afternoon_crash",
+      "duration_min": 3,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": false,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 하체 순환을 깨워 멍함을 줄입니다.",
+      "steps": [
+         { "text": "사용자는 발뒤꿈치를 들었다 내리는 동작을 반복합니다.", "seconds": 60 },
+         { "text": "사용자는 의자에서 일어나 제자리 걷기 60초를 합니다.", "seconds": 60 },
+         { "text": "사용자는 어깨를 10회 크게 돌리고 물 한 모금을 마십니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 숨이 찰 정도로 강도를 올리지 않습니다.",
+      "tags": ["오후붕괴", "순환", "하체", "각성", "가벼운운동"]
+   },
+   {
+      "id": "AFTER_3M_003",
+      "title": "오후 화면 피로 컷 3분(눈-뇌 과열 차단)",
+      "situation": "afternoon_crash",
+      "duration_min": 3,
+      "type": "sensory",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 시각 자극을 줄여 뇌 과열을 낮춥니다.",
+      "steps": [
+         { "text": "사용자는 먼 곳을 바라보고 깜빡임을 늘립니다.", "seconds": 60 },
+         { "text": "사용자는 화면 밝기를 낮추고 알림을 20분만 끕니다.", "seconds": 60 },
+         { "text": "사용자는 목 뒤를 마사지하고 턱 힘을 풉니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 짧은 휴식에 유튜브를 켜지 않습니다.",
+      "tags": ["오후붕괴", "눈피로", "화면피로", "알림OFF", "감각차단"]
+   },
+   {
+      "id": "AFTER_3M_004",
+      "title": "오후 3분 작업 재정렬(우선순위 1개만)",
+      "situation": "afternoon_crash",
+      "duration_min": 3,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 할 일을 줄여 부담감을 낮추고 다시 움직입니다.",
+      "steps": [
+         { "text": "사용자는 지금 해야 할 일을 5개 이하로 적습니다.", "seconds": 60 },
+         { "text": "사용자는 ‘오늘 반드시 1개’를 동그라미 칩니다.", "seconds": 30 },
+         { "text": "사용자는 그 1개를 10분짜리 첫 단계로 쪼갭니다.", "seconds": 90 }
+      ],
+      "forbidden": "사용자는 새로운 일을 추가로 받지 않습니다.",
+      "tags": ["오후붕괴", "우선순위", "재정렬", "부담감감소", "한가지"]
+   },
+   {
+      "id": "AFTER_3M_005",
+      "title": "오후 감각 차단 3분(소음·사람 과부하 대응)",
+      "situation": "afternoon_crash",
+      "duration_min": 3,
+      "type": "sensory",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": false,
+         "privacy_required": true
+      },
+      "effort": "low",
+      "purpose": "사용자는 자극을 줄여 회복을 빠르게 시작합니다.",
+      "steps": [
+         { "text": "사용자는 가능한 조용한 곳으로 이동합니다(화장실/계단/구석).", "seconds": 60 },
+         { "text": "사용자는 어깨 힘을 빼며 1분 호흡합니다.", "seconds": 60 },
+         { "text": "사용자는 오늘 남은 시간표를 1줄로 적어 끝이 보이게 만듭니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 동료 메시지에 즉시 반응하려 하지 않습니다.",
+      "tags": ["오후붕괴", "과자극", "사람피로", "소음", "감각차단"]
+   },
+   {
+      "id": "AFTER_10M_001",
+      "title": "오후 10분 ‘미니 파워다운’",
+      "situation": "afternoon_crash",
+      "duration_min": 10,
+      "type": "sensory",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 과부하를 낮춰 오후 생산성을 회복합니다.",
+      "steps": [
+         { "text": "사용자는 알림을 10분만 끄고 화면을 최소화합니다.", "seconds": 120 },
+         { "text": "사용자는 3분 호흡 + 2분 스트레칭을 합니다.", "seconds": 300 },
+         { "text": "사용자는 남은 업무를 2개로만 압축합니다(필수/하면 좋음).", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 “쉬는 김에” 정보를 더 소비하지 않습니다.",
+      "tags": ["오후붕괴", "파워다운", "알림OFF", "스트레칭", "업무압축"]
+   },
+   {
+      "id": "AFTER_10M_002",
+      "title": "오후 10분 걷기 리셋(야외/복도)",
+      "situation": "afternoon_crash",
+      "duration_min": 10,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": false,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": true,
+         "seat_ok": false,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 환경을 바꿔 멍함을 끊습니다.",
+      "steps": [
+         { "text": "사용자는 5분 천천히 걷습니다.", "seconds": 300 },
+         { "text": "사용자는 ‘해야 할 행동 1개’를 정하며 걷습니다.", "seconds": 180 },
+         { "text": "사용자는 복귀 후 바로 할 10분 작업을 타이머로 예약합니다.", "seconds": 120 }
+      ],
+      "forbidden": "사용자는 걸으면서 메신저를 보지 않습니다.",
+      "tags": ["오후붕괴", "걷기", "환경전환", "예약", "집중복구"]
+   },
+   {
+      "id": "AFTER_10M_003",
+      "title": "오후 10분 업무 복구(10분 타이머 집중)",
+      "situation": "afternoon_crash",
+      "duration_min": 10,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 짧은 성공 경험으로 다시 리듬을 잡습니다.",
+      "steps": [
+         { "text": "사용자는 가장 쉬운 업무 1개를 고릅니다.", "seconds": 60 },
+         { "text": "사용자는 10분 타이머를 켜고 그 일만 합니다.", "seconds": 480 },
+         { "text": "사용자는 다음 10분 작업 1개만 예약합니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 멀티태스킹을 시작하지 않습니다.",
+      "tags": ["오후붕괴", "타이머", "단일작업", "성공경험", "리듬"]
+   },
+   {
+      "id": "AFTER_10M_004",
+      "title": "오후 10분 긴장 해소 루틴(상체 집중)",
+      "situation": "afternoon_crash",
+      "duration_min": 10,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 상체 긴장을 풀어 집중 저하를 줄입니다.",
+      "steps": [
+         { "text": "사용자는 목/어깨 가동 4분을 합니다.", "seconds": 240 },
+         { "text": "사용자는 턱 힘 풀기 + 복식 호흡 3분을 합니다.", "seconds": 180 },
+         { "text": "사용자는 물 1컵을 마시고 자리 정리를 3분만 합니다.", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 과하게 뻗거나 힘주지 않습니다.",
+      "tags": ["오후붕괴", "상체긴장", "복식호흡", "정리", "물"]
+   },
+   {
+      "id": "AFTER_10M_005",
+      "title": "오후 10분 인지 오프로드(머리 비우기 아님, 꺼내기)",
+      "situation": "afternoon_crash",
+      "duration_min": 10,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 생각을 밖으로 꺼내 부담을 낮춥니다.",
+      "steps": [
+         { "text": "사용자는 머릿속 떠오르는 일을 전부 적습니다.", "seconds": 240 },
+         { "text": "사용자는 ‘오늘/나중’으로만 분류합니다.", "seconds": 180 },
+         { "text": "사용자는 오늘 항목 중 1개만 ‘첫 행동’으로 확정합니다.", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 정리의 완벽함을 목표로 하지 않습니다.",
+      "tags": ["오후붕괴", "인지오프로드", "불안감감소", "분류", "첫행동"]
+   },
+
+   {
+      "id": "STUCK_3M_001",
+      "title": "막힘 해제 ‘다음 행동 1개’ 3분",
+      "situation": "stuck",
+      "duration_min": 3,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 막힘을 ‘다음 행동’으로 바꿔 다시 진행합니다.",
+      "steps": [
+         { "text": "사용자는 지금 막힌 이유를 한 줄로 씁니다.", "seconds": 60 },
+         { "text": "사용자는 필요한 정보/결정/승인 중 무엇인지 체크합니다.", "seconds": 60 },
+         { "text": "사용자는 지금 당장 가능한 행동 1개를 10분 단위로 정합니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 전체 작업을 한 번에 해결하려 하지 않습니다.",
+      "tags": ["업무막힘", "다음행동", "진행", "승인", "결정"]
+   },
+   {
+      "id": "STUCK_3M_002",
+      "title": "막힘 해제 ‘초안 1줄’ 3분",
+      "situation": "stuck",
+      "duration_min": 3,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 완벽주의를 끊고 초안을 시작합니다.",
+      "steps": [
+         { "text": "사용자는 결론 한 줄만 씁니다(틀려도 됨).", "seconds": 60 },
+         { "text": "사용자는 근거 2개를 불릿으로 적습니다.", "seconds": 60 },
+         { "text": "사용자는 첫 문단/첫 슬라이드 문장 1개를 더 씁니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 처음부터 최종본을 쓰지 않습니다.",
+      "tags": ["업무막힘", "초안", "완벽주의컷", "결론", "슬라이드"]
+   },
+   {
+      "id": "STUCK_3M_003",
+      "title": "막힘 해제 ‘자료 정리 3분’(탭 정리)",
+      "situation": "stuck",
+      "duration_min": 3,
+      "type": "sensory",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 혼란을 줄여 집중을 회복합니다.",
+      "steps": [
+         { "text": "사용자는 열린 탭/창을 5개 이하로 줄입니다.", "seconds": 90 },
+         { "text": "사용자는 지금 작업에 필요한 문서 1개만 남깁니다.", "seconds": 60 },
+         { "text": "사용자는 다음 10분 동안 할 작업을 한 줄로 고정합니다.", "seconds": 30 }
+      ],
+      "forbidden": "사용자는 새 탭을 열지 않습니다.",
+      "tags": ["업무막힘", "탭정리", "집중", "혼란감소", "작업고정"]
+   },
+   {
+      "id": "STUCK_3M_004",
+      "title": "막힘 해제 ‘질문 한 개’ 3분(도움 요청 준비)",
+      "situation": "stuck",
+      "duration_min": 3,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": true
+      },
+      "effort": "low",
+      "purpose": "사용자는 막힘을 커뮤니케이션으로 빠르게 풀 준비를 합니다.",
+      "steps": [
+         { "text": "사용자는 막힌 지점을 한 문장으로 씁니다.", "seconds": 60 },
+         { "text": "사용자는 상대에게 물을 질문을 딱 1개로 줄입니다.", "seconds": 60 },
+         { "text": "사용자는 필요한 맥락 2줄(배경/현재 상태)을 붙입니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 장문의 하소연 메시지를 보내지 않습니다.",
+      "tags": ["업무막힘", "도움요청", "질문1개", "맥락2줄", "짧게"]
+   },
+   {
+      "id": "STUCK_3M_005",
+      "title": "막힘 해제 ‘환경 전환 3분’(자리에서 벗어나기)",
+      "situation": "stuck",
+      "duration_min": 3,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": false,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": true,
+         "seat_ok": false,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 환경을 바꿔 인지 리셋을 걸어줍니다.",
+      "steps": [
+         { "text": "사용자는 자리에서 일어나 물을 마시며 1분 걷습니다.", "seconds": 60 },
+         { "text": "사용자는 돌아와서 화면 밝기/알림을 줄입니다.", "seconds": 60 },
+         { "text": "사용자는 작업을 10분짜리 작은 조각으로 쪼갭니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 자리 이동 중 휴대폰을 보지 않습니다.",
+      "tags": ["업무막힘", "환경전환", "걷기", "리셋", "작게쪼개기"]
+   },
+   {
+      "id": "STUCK_10M_001",
+      "title": "막힘 해제 10분 ‘문제 재정의’",
+      "situation": "stuck",
+      "duration_min": 10,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": true
+      },
+      "effort": "mid",
+      "purpose": "사용자는 문제를 다시 정의해 잘못된 방향의 시간을 줄입니다.",
+      "steps": [
+         { "text": "사용자는 문제를 ‘무엇을 결정해야 하나?’로 바꿔 씁니다.", "seconds": 180 },
+         { "text": "사용자는 필수 조건 3개를 적습니다.", "seconds": 180 },
+         { "text": "사용자는 선택지 2개만 만들고 다음 행동 1개를 고릅니다.", "seconds": 240 }
+      ],
+      "forbidden": "사용자는 선택지를 무한히 늘리지 않습니다.",
+      "tags": ["업무막힘", "문제재정의", "조건3개", "선택지2개", "결정"]
+   },
+   {
+      "id": "STUCK_10M_002",
+      "title": "막힘 해제 10분 ‘초안→검증’",
+      "situation": "stuck",
+      "duration_min": 10,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 초안을 만들어 검증 가능한 상태로 바꿉니다.",
+      "steps": [
+         { "text": "사용자는 초안을 5줄로 작성합니다.", "seconds": 240 },
+         { "text": "사용자는 불확실한 부분을 [확인 필요]로 표시합니다.", "seconds": 120 },
+         { "text": "사용자는 검증할 질문 2개만 정해 담당자/자료를 연결합니다.", "seconds": 240 }
+      ],
+      "forbidden": "사용자는 확실해질 때까지 시작을 미루지 않습니다.",
+      "tags": ["업무막힘", "초안", "검증", "질문2개", "확인필요"]
+   },
+   {
+      "id": "STUCK_10M_003",
+      "title": "막힘 해제 10분 ‘정보 수집 컷’",
+      "situation": "stuck",
+      "duration_min": 10,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 정보 과잉을 멈추고 실행으로 전환합니다.",
+      "steps": [
+         { "text": "사용자는 필요한 정보 키워드를 3개로 제한합니다.", "seconds": 120 },
+         { "text": "사용자는 검색/자료 확인을 6분만 하고 종료합니다.", "seconds": 360 },
+         { "text": "사용자는 남은 공백을 가정으로 채워 다음 행동을 진행합니다.", "seconds": 120 }
+      ],
+      "forbidden": "사용자는 자료 수집 시간을 계속 늘리지 않습니다.",
+      "tags": ["업무막힘", "정보과잉", "키워드3개", "타임박싱", "실행전환"]
+   },
+   {
+      "id": "STUCK_10M_004",
+      "title": "막힘 해제 10분 ‘도움 요청 패킷’ 작성",
+      "situation": "stuck",
+      "duration_min": 10,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": true
+      },
+      "effort": "mid",
+      "purpose": "사용자는 짧고 정확한 도움 요청으로 해결 속도를 올립니다.",
+      "steps": [
+         { "text": "사용자는 현재 상태를 3줄로 요약합니다(목표/진행/막힘).", "seconds": 240 },
+         { "text": "사용자는 질문 1개와 선택지 2개를 제안합니다.", "seconds": 240 },
+         { "text": "사용자는 예/아니오 또는 A/B로 답하기 쉬운 형태로 마무리합니다.", "seconds": 120 }
+      ],
+      "forbidden": "사용자는 결정을 상대에게 떠넘기지 않습니다.",
+      "tags": ["업무막힘", "도움요청", "3줄요약", "선택지2개", "AB질문"]
+   },
+   {
+      "id": "STUCK_10M_005",
+      "title": "막힘 해제 10분 ‘집중 보호’",
+      "situation": "stuck",
+      "duration_min": 10,
+      "type": "sensory",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 집중을 보호해 막힘이 반복되지 않게 합니다.",
+      "steps": [
+         { "text": "사용자는 알림을 20분 꺼두고 방해요소 1개를 치웁니다.", "seconds": 120 },
+         { "text": "사용자는 10분 타이머로 작업 1개만 진행합니다.", "seconds": 360 },
+         { "text": "사용자는 다음 10분 작업을 예약해 흐름을 이어갑니다.", "seconds": 120 }
+      ],
+      "forbidden": "사용자는 중간에 메신저를 확인하지 않습니다.",
+      "tags": ["업무막힘", "집중보호", "알림OFF", "단일작업", "예약"]
+   },
+
+   {
+      "id": "LEAVE_3M_001",
+      "title": "퇴근 전 ‘미완료 정리 3분’",
       "situation": "before_leave",
       "duration_min": 3,
       "type": "planning",
-      "title": "퇴근 전 3분: 내일 첫 행동 고정",
-      "purpose": "내일 시작 장벽을 낮춥니다.",
-      "forbidden": "할 일 목록 늘리기 금지",
-      "effort": "low",
-      "tags": ["퇴근", "마감", "내일"],
       "environment": {
-         "walk_required": false,
-         "alone_required": false,
-         "privacy_required": false,
          "quiet_ok": true,
-         "noise_ok": true
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
       },
+      "effort": "low",
+      "purpose": "사용자는 미완료 부담을 줄여 퇴근 후 잔상을 낮춥니다.",
       "steps": [
-         { "text": "내일 1순위 작업 1개만 고르기", "seconds": 60 },
-         { "text": "시작 조건 1개(파일/링크) 준비", "seconds": 60 },
-         { "text": "‘10분만 한다’로 기준 낮추기", "seconds": 60 }
-      ]
+         { "text": "사용자는 오늘 못 한 일을 3개만 적습니다.", "seconds": 60 },
+         { "text": "사용자는 각 항목의 ‘첫 행동’만 한 줄로 적습니다.", "seconds": 60 },
+         { "text": "사용자는 내일 시작할 1개를 캘린더에 박아둡니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 퇴근 직전에 새 업무를 시작하지 않습니다.",
+      "tags": ["퇴근전", "미완료정리", "첫행동", "캘린더", "잔상감소"]
+   },
+   {
+      "id": "LEAVE_3M_002",
+      "title": "퇴근 전 ‘내일 첫 10분’ 예약 3분",
+      "situation": "before_leave",
+      "duration_min": 3,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 내일 시작 장벽을 낮춰 마음이 편해집니다.",
+      "steps": [
+         { "text": "사용자는 내일 첫 10분 작업을 정합니다.", "seconds": 60 },
+         { "text": "사용자는 필요한 파일/링크를 미리 열어두거나 즐겨찾기합니다.", "seconds": 60 },
+         { "text": "사용자는 첫 문장/첫 줄을 미리 써둡니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 내일 계획을 과하게 세우지 않습니다.",
+      "tags": ["퇴근전", "내일준비", "첫10분", "링크정리", "시작장벽"]
+   },
+   {
+      "id": "LEAVE_3M_003",
+      "title": "퇴근 전 감각 차단 3분(알림 종료)",
+      "situation": "before_leave",
+      "duration_min": 3,
+      "type": "sensory",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 퇴근 모드로 전환해 회복을 시작합니다.",
+      "steps": [
+         { "text": "사용자는 업무 알림을 퇴근 시간 동안 끕니다.", "seconds": 60 },
+         { "text": "사용자는 화면을 닫고 1분 호흡합니다.", "seconds": 60 },
+         { "text": "사용자는 오늘 잘한 일 1개를 한 줄로 적습니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 퇴근 중에 업무 채팅을 계속 확인하지 않습니다.",
+      "tags": ["퇴근전", "알림OFF", "전환", "호흡", "성취"]
+   },
+   {
+      "id": "LEAVE_3M_004",
+      "title": "퇴근 전 몸 리셋 3분(고정 자세 해제)",
+      "situation": "before_leave",
+      "duration_min": 3,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 몸의 긴장을 풀어 퇴근 후 피로를 덜어냅니다.",
+      "steps": [
+         { "text": "사용자는 가슴 열기 스트레칭 60초를 합니다.", "seconds": 60 },
+         { "text": "사용자는 목 옆 늘리기 좌우 30초씩 합니다.", "seconds": 60 },
+         { "text": "사용자는 가볍게 제자리 걷기 60초를 합니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 무리한 스트레칭을 하지 않습니다.",
+      "tags": ["퇴근전", "스트레칭", "목어깨", "자세해제", "피로감소"]
+   },
+   {
+      "id": "LEAVE_3M_005",
+      "title": "퇴근 전 ‘끝내기 문장’ 3분",
+      "situation": "before_leave",
+      "duration_min": 3,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 업무를 ‘끝났다’로 닫아 마음을 분리합니다.",
+      "steps": [
+         { "text": "사용자는 오늘의 마무리 문장을 씁니다(예: 오늘은 여기까지).", "seconds": 60 },
+         { "text": "사용자는 내일의 시작 문장을 씁니다(예: 내일은 이것부터).", "seconds": 60 },
+         { "text": "사용자는 자리 정리를 1분만 하고 종료합니다.", "seconds": 60 }
+      ],
+      "forbidden": "사용자는 끝내기 문장을 쓰고 다시 일을 열지 않습니다.",
+      "tags": ["퇴근전", "마무리", "경계설정", "잔상컷", "자리정리"]
+   },
+   {
+      "id": "LEAVE_10M_001",
+      "title": "퇴근 전 10분 ‘업무 잔상 컷’(정리 루프)",
+      "situation": "before_leave",
+      "duration_min": 10,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 업무 생각이 집까지 따라오는 것을 줄입니다.",
+      "steps": [
+         { "text": "사용자는 오늘 남은 걱정/할 일을 전부 적습니다.", "seconds": 240 },
+         { "text": "사용자는 내일 처리할 것 3개만 남기고 나머지는 보관합니다.", "seconds": 180 },
+         { "text": "사용자는 내일 일정에 1개만 배치하고 종료합니다.", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 걱정을 해결하려고 추가 작업을 하지 않습니다.",
+      "tags": ["퇴근전", "잔상컷", "내일3개", "일정배치", "마음분리"]
+   },
+   {
+      "id": "LEAVE_10M_002",
+      "title": "퇴근 전 10분 ‘책상 리셋’(내일의 나를 돕기)",
+      "situation": "before_leave",
+      "duration_min": 10,
+      "type": "planning",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": false
+      },
+      "effort": "mid",
+      "purpose": "사용자는 환경을 정리해 내일 시작 비용을 낮춥니다.",
+      "steps": [
+         { "text": "사용자는 책상 위를 3구역(필수/보관/버림)으로 나눕니다.", "seconds": 180 },
+         { "text": "사용자는 필수 구역만 남기고 나머지를 치웁니다.", "seconds": 240 },
+         { "text": "사용자는 내일 첫 업무에 필요한 것 3개만 세팅합니다.", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 완벽한 정리를 목표로 하지 않습니다.",
+      "tags": ["퇴근전", "정리", "책상리셋", "내일세팅", "시작비용감소"]
+   },
+   {
+      "id": "LEAVE_10M_003",
+      "title": "퇴근 전 10분 ‘하루 회복 리포트’(Pro 핵심 형태)",
+      "situation": "before_leave",
+      "duration_min": 10,
+      "type": "cognitive",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": true
+      },
+      "effort": "mid",
+      "purpose": "사용자는 오늘의 패턴을 확인해 내일을 더 쉽게 만듭니다.",
+      "steps": [
+         { "text": "사용자는 오늘 힘들었던 순간 2개를 적습니다.", "seconds": 240 },
+         { "text": "사용자는 도움이 됐던 루틴/행동 1개를 적습니다.", "seconds": 180 },
+         { "text": "사용자는 내일 반복 방지 행동 1개를 정합니다.", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 자기비난 문장으로 기록하지 않습니다.",
+      "tags": ["퇴근전", "리포트", "패턴", "반복방지", "자기비난금지"]
+   },
+   {
+      "id": "LEAVE_10M_004",
+      "title": "퇴근 전 10분 ‘관계 정리’(메신저 잔상 줄이기)",
+      "situation": "before_leave",
+      "duration_min": 10,
+      "type": "emotion",
+      "environment": {
+         "quiet_ok": true,
+         "noise_ok": true,
+         "alone_required": true,
+         "walk_required": false,
+         "seat_ok": true,
+         "privacy_required": true
+      },
+      "effort": "mid",
+      "purpose": "사용자는 관계 스트레스를 정리해 퇴근 후 머리를 비웁니다.",
+      "steps": [
+         { "text": "사용자는 오늘 걸렸던 대화 1개를 적습니다.", "seconds": 180 },
+         { "text": "사용자는 내가 통제 가능한 행동 1개만 적습니다.", "seconds": 180 },
+         { "text": "사용자는 내일 보낼 짧은 메시지 초안을 2줄로 써두고 종료합니다.", "seconds": 240 }
+      ],
+      "forbidden": "사용자는 지금 즉시 해결하려고 대화를 다시 열지 않습니다.",
+      "tags": ["퇴근전", "관계", "메신저잔상", "통제가능", "2줄초안"]
+   },
+   {
+      "id": "LEAVE_10M_005",
+      "title": "퇴근 전 10분 ‘이동 시작 루틴’(퇴근 모드 전환)",
+      "situation": "before_leave",
+      "duration_min": 10,
+      "type": "movement",
+      "environment": {
+         "quiet_ok": false,
+         "noise_ok": true,
+         "alone_required": false,
+         "walk_required": true,
+         "seat_ok": false,
+         "privacy_required": false
+      },
+      "effort": "low",
+      "purpose": "사용자는 퇴근 신호를 만들어 회복을 빠르게 시작합니다.",
+      "steps": [
+         { "text": "사용자는 업무 알림을 끄고 이동 준비를 합니다.", "seconds": 120 },
+         { "text": "사용자는 5분 천천히 걸으며 호흡과 발걸음을 느낍니다.", "seconds": 300 },
+         { "text": "사용자는 집에 가서 할 ‘가벼운 회복 행동 1개’를 정합니다.", "seconds": 180 }
+      ],
+      "forbidden": "사용자는 퇴근길에 업무 메신저를 열지 않습니다.",
+      "tags": ["퇴근전", "이동", "걷기", "전환", "회복행동"]
    }
 ]
