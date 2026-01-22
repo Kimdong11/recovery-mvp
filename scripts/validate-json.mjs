@@ -1,19 +1,26 @@
+// scripts/validate-json.mjs
 import fs from 'node:fs';
 
 const path = 'src/data/routines.json';
-let raw = '';
 
+let raw = '';
 try {
    raw = fs.readFileSync(path, 'utf8');
 } catch (e) {
-   console.error(`[validate-json] Cannot read: ${path}`);
-   throw e;
+   console.error(`[validate-json] Cannot read file: ${path}`);
+   process.exit(1);
 }
 
-console.log(`[validate-json] bytes=${Buffer.byteLength(raw, 'utf8')}`);
+const bytes = Buffer.byteLength(raw, 'utf8');
+console.log(`[validate-json] bytes=${bytes}`);
+
+const head = raw.slice(0, 120).replace(/\n/g, '\\n');
+const tail = raw.slice(Math.max(0, raw.length - 220)).replace(/\n/g, '\\n');
+console.log(`[validate-json] head="${head}"`);
+console.log(`[validate-json] tail="${tail}"`);
 
 if (!raw.trim()) {
-   console.error('[validate-json] File is EMPTY or whitespace-only.');
+   console.error('[validate-json] FAIL: file is EMPTY/whitespace.');
    process.exit(1);
 }
 
@@ -22,8 +29,5 @@ try {
    console.log('[validate-json] JSON parse OK');
 } catch (e) {
    console.error('[validate-json] JSON parse FAIL:', e.message);
-   console.error('\n--- tail(300 chars) ---');
-   console.error(raw.slice(Math.max(0, raw.length - 300)));
-   console.error('\n----------------------');
    process.exit(1);
 }
