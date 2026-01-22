@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import ROUTINES from 'src/data/routines.json';
+import ROUTINES from './data/routines.json';
 import './App.css';
 
 // ------------------------------------------------------------
@@ -11,7 +11,6 @@ import './App.css';
 // ------------------------------------------------------------
 
 const LS_KEY = 'recovery_mvp_v2';
-
 const DEFAULT_STATE = {
    consented: false,
    isPro: false, // MVP: 결제 대신 데모 토글
