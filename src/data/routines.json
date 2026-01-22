@@ -1,0 +1,71 @@
+[
+   {
+      "id": "afternoon_crash_3_movement_1",
+      "situation": "afternoon_crash",
+      "duration_min": 3,
+      "type": "movement",
+      "title": "오후 3분: 굳은 몸 깨우기",
+      "purpose": "가만히 쉬면 더 피곤한 상태를 짧게 리셋합니다.",
+      "forbidden": "의자에 기대어 멍때리기 금지",
+      "effort": "low",
+      "tags": ["스트레칭", "순환", "리셋"],
+      "environment": {
+         "walk_required": false,
+         "alone_required": false,
+         "privacy_required": false,
+         "quiet_ok": true,
+         "noise_ok": true
+      },
+      "steps": [
+         { "text": "목/어깨 가동 + 턱 이완", "seconds": 90 },
+         { "text": "종아리 펌핑(발뒤꿈치 들기)", "seconds": 60 },
+         { "text": "제자리 걷기", "seconds": 30 }
+      ]
+   },
+   {
+      "id": "meeting_pre_3_cognitive_1",
+      "situation": "meeting_pre",
+      "duration_min": 3,
+      "type": "cognitive",
+      "title": "회의 전 3분: 핵심 1문장 고정",
+      "purpose": "회의에서 말할 결론 1문장을 고정합니다.",
+      "forbidden": "자료 탐색/탭 추가 열기 금지",
+      "effort": "low",
+      "tags": ["회의", "정리", "핵심"],
+      "environment": {
+         "walk_required": false,
+         "alone_required": false,
+         "privacy_required": false,
+         "quiet_ok": true,
+         "noise_ok": true
+      },
+      "steps": [
+         { "text": "오늘 결론 1문장 쓰기", "seconds": 60 },
+         { "text": "내가 제안할 1문장 고정하기", "seconds": 60 },
+         { "text": "질문 1개 미리 준비하기", "seconds": 60 }
+      ]
+   },
+   {
+      "id": "before_leave_3_planning_1",
+      "situation": "before_leave",
+      "duration_min": 3,
+      "type": "planning",
+      "title": "퇴근 전 3분: 내일 첫 행동 고정",
+      "purpose": "내일 시작 장벽을 낮춥니다.",
+      "forbidden": "할 일 목록 늘리기 금지",
+      "effort": "low",
+      "tags": ["퇴근", "마감", "내일"],
+      "environment": {
+         "walk_required": false,
+         "alone_required": false,
+         "privacy_required": false,
+         "quiet_ok": true,
+         "noise_ok": true
+      },
+      "steps": [
+         { "text": "내일 1순위 작업 1개만 고르기", "seconds": 60 },
+         { "text": "시작 조건 1개(파일/링크) 준비", "seconds": 60 },
+         { "text": "‘10분만 한다’로 기준 낮추기", "seconds": 60 }
+      ]
+   }
+]

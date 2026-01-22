@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import ROUTINES from './data/routines.json';
-import './styles.css';
+import './App.css';
 
 // ------------------------------------------------------------
 // 업무 복구(Recovery) — "완제품 같은 MVP" 테스트 공간
