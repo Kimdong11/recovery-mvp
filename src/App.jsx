@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import ROUTINES from './data/routines.json';
+import ROUTINES from 'src/data/routines.json';
 import './App.css';
 
 // ------------------------------------------------------------
